@@ -13,7 +13,6 @@
 <br>
 <br>
 <h2 style="font-size: 3rem;" align="center">Another Flex Box Game<h2/>
-<hr>
 <br>
 <br>
 <div align="center">
