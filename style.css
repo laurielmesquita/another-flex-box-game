@@ -7,15 +7,25 @@ body,
 
 #app {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
 }
 
 .box {
   width: 350px;
   height: 60px;
-  background-color: #f00;
   margin: 5px;
+}
+
+.red {
+  background-color: red;
+  order: 2;
+}
+
+.green {
+  background-color: green;
+  order: 1;
+}
+
+.blue {
+  background-color: blue;
+  order: 0;
 }
