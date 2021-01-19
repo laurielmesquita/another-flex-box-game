@@ -36,7 +36,6 @@ header#main-header {
 
 .container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   max-width: 1160px;
   height: 100%;
@@ -110,14 +109,14 @@ header#main-header div.side button {
   font-weight: bold;
   border: 0;
   border-radius: 20px;
-  background-color:var(--blue);
+  background-color: var(--blue);
 }
 
 div.banner {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFF;
+  color: #fff;
   width: 100%;
   height: 380px;
   background-color: var(--blue);
@@ -125,7 +124,7 @@ div.banner {
 
 div.bar {
   height: 59px;
-  background-color: #FFF;
+  background-color: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -185,7 +184,7 @@ div.bar div.actions button {
   font-weight: bold;
   border: 1px solid var(--blue);
   border-radius: 20px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 div.bar div.actions img {
@@ -201,7 +200,7 @@ aside.profile img.avatar {
   margin-top: -130px;
   width: 200px;
   height: 200px;
-  border: 5px solid #FFF;
+  border: 5px solid #fff;
   border-radius: 50%;
   background-color: darkolivegreen;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
@@ -215,13 +214,13 @@ aside.profile h1 {
 
 aside.profile span {
   font-size: 14px;
-  color: #53636C;
+  color: #53636c;
   margin-top: 10px;
 }
 
 aside.profile p {
   font-size: 15px;
-  color: #53636C;
+  color: #53636c;
   margin-top: 10px;
 }
 
@@ -287,4 +286,117 @@ aside.profile .images ul li {
   background-color: #d0d5d9;
   border-radius: 8px;
   margin: 0 5px 5px 0;
+}
+
+section.timeline {
+  flex: 1;
+}
+
+aside.widgets {
+  width: 290px;
+  margin-top: 15px;
+}
+
+aside.widgets .widget {
+  background-color: #fff;
+  padding: 15px;
+}
+
+aside.widgets .widget .title {
+  display: flex;
+  align-items: baseline;
+}
+
+aside.widgets .widget .title strong {
+  font-size: 18px;
+  color: #1f2226;
+}
+
+aside.widgets .widget .title a {
+  position: relative;
+  margin-left: 5px;
+  padding-left: 10px;
+  color: var(--blue);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+aside.widgets .widget .title a:before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 6px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #1f2226;
+}
+
+aside.widgets .follow ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+aside.widgets .follow ul li {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccd6dd;
+}
+
+aside.widgets .follow ul li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+aside.widgets .follow ul li > a {
+  color: #ccd6dd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+aside.widgets .follow ul li .profile {
+  display: flex;
+  align-items: center;
+}
+
+aside.widgets .follow ul li .profile img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: darkolivegreen;
+}
+
+aside.widgets .follow ul li .profile .info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+aside.widgets .follow ul li .profile .info strong {
+  font-size: 14px;
+  color: #1f2226;
+}
+
+aside.widgets .follow ul li .profile .info strong span {
+  font-weight: normal;
+  color: #9a9a9a;
+}
+
+aside.widgets .follow ul li .profile .info button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  width: 90px;
+  height: 27px;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid var(--blue);
+  border-radius: 20px;
+  background-color: #fff;
 }
