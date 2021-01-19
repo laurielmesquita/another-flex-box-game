@@ -34,7 +34,7 @@ header#main-header {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-div.container {
+.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -84,6 +84,7 @@ header#main-header div.side img {
   height: 34px;
   margin: 0 16px;
   border-radius: 50%;
+  background-color: darkolivegreen;
 }
 
 header#main-header div.side input {
@@ -188,5 +189,102 @@ div.bar div.actions button {
 }
 
 div.bar div.actions img {
+  width: 24px;
   height: 24px;
+}
+
+aside.profile {
+  width: 260px;
+}
+
+aside.profile img.avatar {
+  margin-top: -130px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #FFF;
+  border-radius: 50%;
+  background-color: darkolivegreen;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+aside.profile h1 {
+  font-size: 21px;
+  color: #1f2226;
+  margin-top: 10px;
+}
+
+aside.profile span {
+  font-size: 14px;
+  color: #53636C;
+  margin-top: 10px;
+}
+
+aside.profile p {
+  font-size: 15px;
+  color: #53636C;
+  margin-top: 10px;
+}
+
+aside.profile ul {
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+aside.profile ul li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+aside.profile ul.bioList li:first-child {
+  margin-top: 0;
+}
+
+img.icon {
+  width: 16px;
+  height: auto;
+  margin-right: 10px;
+}
+
+aside.profile .widget {
+  margin-top: 20px;
+}
+
+aside.profile .widget strong {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: var(--blue);
+  font-weight: normal;
+}
+
+aside.profile .followers ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+aside.profile .followers ul li {
+  flex: 1 0 46px;
+  width: 46px;
+  height: 46px;
+  background-color: #d0d5d9;
+  border-radius: 50%;
+  margin: 0 5px 10px 0;
+}
+
+aside.profile .images ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+aside.profile .images ul li {
+  flex: 1 0 81px;
+  width: 81px;
+  height: 81px;
+  background-color: #d0d5d9;
+  border-radius: 8px;
+  margin: 0 5px 5px 0;
 }
