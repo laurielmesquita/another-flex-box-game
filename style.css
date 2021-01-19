@@ -27,6 +27,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 header#main-header {
   position: relative;
   height: 46px;
@@ -41,6 +45,10 @@ header#main-header {
   height: 100%;
   margin: 0 auto;
   padding: 0 30px;
+}
+
+header#main-header .container {
+  align-items: center;
 }
 
 header#main-header nav ul li {
@@ -290,6 +298,91 @@ aside.profile .images ul li {
 
 section.timeline {
   flex: 1;
+  background-color: #fff;
+  margin: 15px 20px 0;
+}
+
+section.timeline nav {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+}
+
+section.timeline nav a {
+  color: var(--blue);
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+section.timeline nav a:first-child {
+  margin-left: 0;
+}
+
+section.timeline nav a.selected {
+  color: #1f2226;
+}
+
+section.timeline .tweets {
+  display: flex;
+  flex-direction: column;
+}
+
+section.timeline .tweets li {
+  display: flex;
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+}
+
+section.timeline .tweets li > img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: darkolivegreen;
+}
+
+section.timeline .tweets li .info {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+section.timeline .tweets li .info strong {
+  font-size: 14px;
+  color: #1f2226;
+}
+
+section.timeline .tweets li .info strong span {
+  font-weight: normal;
+  font-size: 13px;
+  color: #7b8b9a;
+}
+
+section.timeline .tweets li .info p {
+  font-size: 14px;
+  color: #1f2326;
+  margin-top: 5px;
+}
+
+section.timeline .tweets li .info .actions {
+  display: flex;
+  margin-top: 20px;
+}
+
+section.timeline .tweets li .info .actions a {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  color: #667580;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+section.timeline .tweets li .info .actions a:first-of-type {
+  margin-left: 0;
+}
+
+section.timeline .tweets li .info .actions a img {
+  margin-right: 5px;
 }
 
 aside.widgets {
@@ -318,7 +411,6 @@ aside.widgets .widget .title a {
   padding-left: 10px;
   color: var(--blue);
   font-size: 12px;
-  text-decoration: none;
 }
 
 aside.widgets .widget .title a:before {
@@ -354,7 +446,6 @@ aside.widgets .follow ul li:last-child {
 
 aside.widgets .follow ul li > a {
   color: #ccd6dd;
-  text-decoration: none;
   font-size: 14px;
 }
 

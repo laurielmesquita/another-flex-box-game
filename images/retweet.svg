@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="390px" height="472px" viewBox="0 0 390 472" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>retweet</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="retweet" transform="translate(16.000000, 12.000000)" stroke="#667580" stroke-width="32">
+            <g id="Group" transform="translate(179.000000, 224.000000) rotate(90.000000) translate(-179.000000, -224.000000) translate(-45.000000, 45.000000)">
+                <path d="M402.67,208.59 L402.67,178.79 C402.67,80.06 322.43,-0.000271083994 223.47,-0.000271083994 C168.934479,-0.0670985306 117.343088,24.7309326 83.33,67.36 M44.8,149.36 L44.8,179.16 C44.8,278 125,358 224,358 C278.36467,357.921329 329.796524,333.336903 364,291.08" id="Shape"></path>
+                <polyline id="Path" points="0 179 44 135 90 179"></polyline>
+                <polyline id="Path" points="448 179 404 223 358 179"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
